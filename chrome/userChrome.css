@@ -22,3 +22,14 @@
   #sidebar-header {
   display: none;
 }
+.bookmark-item .toolbarbutton-icon[label="Read Later"] {
+  display: none !important;
+}
+
+#personal-bookmarks .bookmark-item[container="true"] .toolbarbutton-icon {
+  display: none !important;
+}
+
+#personal-bookmarks .bookmark-item .toolbarbutton-icon {
+  display: none !important;
+}
