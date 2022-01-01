@@ -1,0 +1,14 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#TabsToolbar {
+  visibility: collapse !important;
+}
+
+#personal-bookmarks .bookmark-item > .toolbarbutton-text {
+  font-size: 7px !important;
+  font-family: "Iosevka SS15" !important;
+}
+#personal-bookmarks .bookmark-item > .toolbarbutton-icon {
+  height: 10px !important;
+  width: 10px !important;
+}

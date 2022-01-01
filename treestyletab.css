@@ -1,0 +1,40 @@
+:root {
+  --tab-height: 25px !important;
+}
+
+.tab {
+  border-top: 0pxx solid transparent;
+  height: var(--tab-height) !important;
+  padding: 0px;
+  z-index: 0;
+} /* Change tab height */
+
+.tab .label {
+  font-family: Iosevka Curly;
+  font-size: 9pt;
+  line-height: 1.2;
+  color: var(--tab-text);
+  text-align: start;
+  text-shadow: none;
+  margin-bottom: 0.1em;
+  padding: 0px 0px 0px 0.2em;
+}
+
+tab-item.active .background {
+  background-color: #2e3440;
+}
+tab-item.active tab-twisty,
+tab-item.active .label-content,
+tab-item.active tab-counter {
+  color: #fff;
+}
+tab-item tab-item-substance:hover {
+  background: #3b4252 !important;
+  opacity: 1;
+}
+tab-item-substance {
+  border: solid 1px #2e3440;
+}
+tab-item:not(.faviconized):not(.loading) tab-favicon {
+  display: none;
+}
